@@ -3,12 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Tablas</title>
+    <!-- estilo externo-->
+    <link rel="stylesheet" href="estilos.css"type="text/css">
+    <!-- estilo interno-->
+    <style> 
+        tr {background-color: blue;}
+    </style>
+
+   
 </head>
 <body>
     <h1>Mi Horario</h1>
     <table>
         <thead>
-            <tr>
+             <!-- estilo en linea-->
+            <!--<tr style="background-color: green;">-->   
+            <tr class="verde">
                 <th>Hora</th>
                 <th>Lunes</th>
                 <th>Martes</th>
@@ -41,10 +51,7 @@
                 <td></td>
                 <td>Tecnologia Informatica</td>
             </tr>
-            
-        </tbody>
-
-        <tfoot>
+        
             <tr>
                 <td>10:00 - 11:00</td>
                 <td>Computación Ubicua</td>
@@ -92,11 +99,16 @@
                 <td>Laboratorio de Redes</td>
                 <td></td>
             </tr>
-        </tfoot>
 
-        <caption>Horario 2016-2017 II</caption>
+            </tbody>
+        
+        <tfoot>
+           
+        <caption  style="background-color: green;"> Horario 2016-2017 II</caption>
+    
+        </tfoot>
     </table>
-    <caption>
+    <caption >
         <a href="index.html">Menu</a>
     </caption>
 </body>
