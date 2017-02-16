@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Selectores</title>
+    <link rel="stylesheet" href="index.css">
+    <img src="fondo.png" id ="fondoimagen">
+</head>
+<body>
+    <h2>Tipos de Selectores</h2>
+
+    <div>
+        <dl>
+            <dt>Selector de Tipo</dt>
+            <dd>Selecciona un tipo de elemento HTML y aplica el estilo a todos los elementos de ese tipo<br>
+            Ejemplo:<br>
+            p{text-align: justify;}<br></dd>
+
+            <dt>Selector descendente</dt>
+            <dd>Aplica el estilo a elementos que estan conectados dentro de otros elementos<br>
+            Ejemplo:<br>
+            p b{color: red;}<br>
+            ul li b{color:green;}<br></dd>
+
+            <dt>Selector hijo</dt>
+            <dd>Similar al descendente pero mas restrictivo, aplica solamente el estilo a los elementos que sean hijos directos
+                de otro elemento<br>
+                Ejemplo:<br>
+                p>b{color:blue;}<br>
+            </dd>
+
+            <dt>Selector por id</dt>
+            <dd>Un id es un atributo de un elemento HTML y se utiliza para aplicar un estilo
+                de manera particular<br>
+                Ejemplo:<br>
+                p id="introduccion"<br>
+                Este es el parrafo /p<br>
+
+                # <= selector por id<br>   
+              
+
+                #introduccion{ color: blue;}<br>
+            </dd>
+
+            <dt>Selector por clase</dt>
+            <dd>Aplicar estilo a un conjunto de elementos<br>
+            p class="especial"<br>
+            
+              . <= selector por clase<br>
+              .especial{color:red;}<br></dd>
+
+              <dt>Selector universal</dt>
+              <dd>Aplica el mismo estilo a todos los elementos de la pagina<br></dd>
+        </dl>
+    </div>
+     <a href="index.html">Menu</a>
+    
+</body>
+</html>
